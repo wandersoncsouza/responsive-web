@@ -21,7 +21,63 @@
     </header>
     
     
-    <!--Restante do conteudo-->    
+    <nav class="main-nav" role="navigation">
+        <ul class="nav-container">
+              <li><a href="#">Link 1</a></li>
+              <li><a href="#">Link 2</a></li>
+              <li><a href="#">Link 3</a></li>
+              <li><a href="#">Link 4</a></li>
+        </ul>
+    </nav>
+    <main class="main-container" role="main">
+            <h1>Criando conteúdo em HTML5</h1>
+            <p>HTML5 é uma linguagem de marcação de hipertexto, muito utilizada na web...</p>
+            <article class="article-container flex-container">
+                <section class="main-content">
+                        <header>
+                                <h1>O elemento <code><main></code></h1>
+                        </header>
+                        <p>Por definição:</p>
+                        <blockquote>
+                                <p>O Elemento (<code><main></code>) representa…
+                                </p>
+                        </blockquote>
+                </section>
+                <aside class="side-content" role="complementary">
+                        <h2>Quer se tornar um programador?</h2>
+                        <p>Provavelmente você terá um longo caminho, mas pode fazer uso do nosso conteúdo para te ajudar.</p>
+                </aside>
+            </article>
+            <div class="contact-form" role="form">
+                <header>
+                        <h2>Mande-nos sua sugestão/dúvida/questão</h2>
+                </header>
+                <form>
+                        <div class="flex-container">
+                                <label class="label-col">Nome:
+                                    <input type="text" class="field name" id="nome" required>
+                                </label>
+                                <label class="label-col">Email:
+                                    <input type="email" class="field email" id="email" required>
+                                </label>
+                        </div>
+                        <label for="comentario">Comentário:</label>
+    
+                        <textarea class="comments" id="comentario" cols="50" required></textarea>
+                        <button>Enviar</button>
+                </form>
+            </div>
+            <footer class="main-footer" role="contentinfo">
+                <p>Copyright © 2015 | Todos os direitos reservados. </p>
+                <ul class="nav-container" role="navigation">
+                        <li><a href="#">Rodapé Link 1</a></li>
+                        <li><a href="#">Rodapé Link 2</a></li>
+                        <li><a href="#">Rodapé Link 3</a></li>
+                        <li><a href="#">Rodapé Link 4</a></li>
+                        <li><a href="#">Rodapé Link 5</a></li>
+                </ul>
+            </footer>
+    </main>    
 
 </body>
 </html>
